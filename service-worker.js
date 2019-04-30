@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nusantara-quiz/precache-manifest.0d9d4700bd64eb5f8a0f0b33e9edc995.js"
+  "/nusantara-quiz/precache-manifest.94fff188eb355ddbffc86eabd3ada1f3.js"
 );
 
 workbox.clientsClaim();
