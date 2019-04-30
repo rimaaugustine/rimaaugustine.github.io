@@ -1,0 +1,111 @@
+
+/** KEYFRAME **/
+@keyframes wave-flag-front {
+  from { width: 90px; }
+  to { width: 160px; }
+}
+
+@keyframes wave-flag-back {
+  from { left: 42px; width: 140px; }
+  to { left: 112px; width: 70px; }
+}
+
+/** BASIC **/
+.center {
+  height: 200px;
+  width: 245px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -180px;
+  margin-left: -122px;
+}
+
+/** FLAG **/
+.flag-container {
+  height: 200px;
+  position: relative;
+}
+
+.pole {
+  background: rgb(224, 224, 224);
+  display: block;
+  height: 180px;
+  position: relative;
+  transform: skew(20deg,0deg);
+  width: 10px;
+}
+
+.knob {
+  background: rgb(224, 224, 224);
+  border-radius: 50%;
+  display: block;
+  height: 18px;
+  left: -47px;
+  position: absolute;
+  top: -18px;
+  width: 18px;
+}
+
+.flag {
+  background: rgb(242,242,242);
+  display: block;
+  position: absolute;
+  transform: skew(20deg,0deg);
+}
+
+.flag.front {
+  left: -17px;
+  height: 110px;
+  overflow: hidden;
+  top: 0;
+  width: 90px;
+  z-index: 10;
+  
+  animation: wave-flag-front 0.7s ease-in-out infinite alternate;
+  
+  .rect {
+    background: #b71c1c;
+    display: block;
+    height: 60px;
+    position: absolute;
+    width: 200px;
+    z-index: 100;
+  }
+  
+
+}
+
+.flag.back {
+  background: rgb(224, 224, 224);
+  left: 42px;
+  height: 90px;
+  top: 45px;
+  width: 140px;
+  z-index: 5;
+  overflow: hidden;
+  
+   .rect2 {
+    background: #7f0000;
+    display: block;
+    height: 40px;
+    position: absolute;
+    width: 140px;
+    z-index: 200;
+  } 
+
+  
+  animation: wave-flag-back 0.7s ease-in-out infinite alternate;
+  
+  .shadow {
+    border-color: rgb(204, 204, 204) transparent transparent transparent;
+    border-style: solid;
+    border-width: 35px 45px 0 0;
+    bottom: 0;
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 15;
+    transform: translate(-65px)
+  } 
+}
