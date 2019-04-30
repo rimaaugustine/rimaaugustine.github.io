@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.405728b1.chunk.css",
-  "main.js": "/static/js/main.da15b7c9.chunk.js",
-  "main.js.map": "/static/js/main.da15b7c9.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.f20fd9a2.chunk.js": "/static/js/2.f20fd9a2.chunk.js",
-  "static/js/2.f20fd9a2.chunk.js.map": "/static/js/2.f20fd9a2.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.9d6f2ee3b7e0c3708baee85d6559a05a.js": "/precache-manifest.9d6f2ee3b7e0c3708baee85d6559a05a.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.405728b1.chunk.css.map": "/static/css/main.405728b1.chunk.css.map"
+  "main.css": "/nusantara-quiz/static/css/main.405728b1.chunk.css",
+  "main.js": "/nusantara-quiz/static/js/main.d60524ae.chunk.js",
+  "main.js.map": "/nusantara-quiz/static/js/main.d60524ae.chunk.js.map",
+  "runtime~main.js": "/nusantara-quiz/static/js/runtime~main.fdd8e242.js",
+  "runtime~main.js.map": "/nusantara-quiz/static/js/runtime~main.fdd8e242.js.map",
+  "static/js/2.0a6b6049.chunk.js": "/nusantara-quiz/static/js/2.0a6b6049.chunk.js",
+  "static/js/2.0a6b6049.chunk.js.map": "/nusantara-quiz/static/js/2.0a6b6049.chunk.js.map",
+  "index.html": "/nusantara-quiz/index.html",
+  "precache-manifest.0d9d4700bd64eb5f8a0f0b33e9edc995.js": "/nusantara-quiz/precache-manifest.0d9d4700bd64eb5f8a0f0b33e9edc995.js",
+  "service-worker.js": "/nusantara-quiz/service-worker.js",
+  "static/css/main.405728b1.chunk.css.map": "/nusantara-quiz/static/css/main.405728b1.chunk.css.map"
 }
