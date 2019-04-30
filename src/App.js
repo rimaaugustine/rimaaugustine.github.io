@@ -21,9 +21,9 @@ class App extends Component {
       <Router>
       <div className="App">
         <Navbar/>
-        <Route path="/" exact component={OpeningPage} />
-        <Route path="/about/" component={About} />
-        <Route path="/quiz/" component={Quiz} />
+        <Route path="/nusantara-quiz" exact component={OpeningPage} />
+        <Route path="/nusantara-quiz/about/" component={About} />
+        <Route path="/nusantara-quiz/quiz/" component={Quiz} />
       </div>
       </Router>
       </Provider>

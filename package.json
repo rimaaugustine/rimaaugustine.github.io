@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rimaaugustine.github.io/",
+  "homepage": "https://rimaaugustine.github.io/nusantara-quiz",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "contentful": "^7.5.0",
